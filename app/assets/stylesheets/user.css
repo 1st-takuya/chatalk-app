@@ -1,8 +1,10 @@
+
 .account-page .account-page__inner {
   width: 980px;
   margin: 60px auto;
   padding: 60px;
-  background-color: #fff;
+  background-image: url(bible-4249164_1920.jpg);
+  background-repeat: round;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -33,13 +35,9 @@
   font-size: 14px;
   font-weight: 200;
 }
-.account-page .account-page__header .btn {
-  margin-top: 20px;
-  color: #fff;
-  background-color: #ccc;
-  font-size: 14px;
-}
+
 .account-page .field {
+
   margin-bottom: 10px;
 }
 .account-page .field .field-label {
@@ -56,19 +54,13 @@
   padding: 10px;
   letter-spacing: 1px;
 }
-.account-page .btn {
-  display: inline-block;
-  height: 50px;
-  padding: 0 30px;
-  line-height: 50px;
-  letter-spacing: 1px;
-  text-align: center;
-  border: none;
-  border-radius: 2px;
+.button{
+  margin-top: 50px;
 }
+
 .account-page input[type=submit] {
   float: left;
-  margin-top: 20px;
+  margin-top: 200px;
   color: #fff;
   background-color: #38aef0;
 }
@@ -94,7 +86,7 @@
 #error_explanation {
   margin: 20px 0;
   padding: 20px 30px;
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 2px;
 }
 #error_explanation h2 {
@@ -112,3 +104,4 @@
   padding: 0;
   font-size: 13px;
 }
+
